@@ -10,8 +10,3 @@ int	ft_strlen(char	*str)
 	}
 	return(i);
 }
-int	main()
-{
-	printf("%d\n", ft_strlen("Hello, World!"));
-
-}

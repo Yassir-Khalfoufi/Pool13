@@ -11,12 +11,3 @@ char *ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return(dest);
 }
-int	main()
-{
-	char src[] = "Hello, World!";
-	char dest[20];
-	printf("before: %s\n", dest);
-	ft_strcpy(dest, src);
-	printf("after : %s\n", dest);
-	return(0);
-}
