@@ -26,8 +26,3 @@ int	ft_atoi(char *str)
 	}
 return(result * sign);
 }
-int	main()
-{
-	char	str[] = "   ---+--+z1234ab567";
-	printf("%d\n", ft_atoi(str));
-}
