@@ -1,3 +1,4 @@
+#include<stdio.h>
 char	*ft_strupcase(char *str)
 {
 	int	i;
@@ -9,4 +10,9 @@ char	*ft_strupcase(char *str)
 		i++;
 	}
 	return(str);
+}
+int	main()
+{
+	char	str[] = "bascbap";
+	printf("%s\n", ft_strupcase(str));
 }

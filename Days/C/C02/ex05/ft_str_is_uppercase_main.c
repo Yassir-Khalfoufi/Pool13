@@ -1,3 +1,4 @@
+#include<stdio.h>
 int	ft_str_is_uppercase(char *str)
 {
 	int	i;
@@ -9,4 +10,9 @@ int	ft_str_is_uppercase(char *str)
 		i++;
 	}
 	return(1);
+}
+int	main()
+{
+	char str[] = "AAAADaLA";
+	printf("%d\n", ft_str_is_uppercase(str));
 }

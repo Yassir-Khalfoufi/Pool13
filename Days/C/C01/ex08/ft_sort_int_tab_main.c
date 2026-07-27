@@ -20,3 +20,17 @@ void	ft_sort_int_tab(int *tab, int size)
 	i++;
 	}
 }
+#include<stdio.h>
+int	main()
+{
+	int	tab[] = {7,2,3,9,2,4};
+	int	size = 6;
+	int	i = 0;
+	ft_sort_int_tab(tab, size);
+	while (i < size)
+	{
+		printf("%d", tab[i]);
+		i++;
+	}
+	return(0);
+}

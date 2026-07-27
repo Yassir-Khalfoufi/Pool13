@@ -1,3 +1,4 @@
+#include<stdio.h>
 char	*ft_strcapitalize(char *str)
 {
 	int	i;
@@ -18,3 +19,9 @@ char	*ft_strcapitalize(char *str)
 	}
 	return(str);
 }
+int	main()
+{
+	char	str[] = "kALBON wAer";
+	printf("%s\n", ft_strcapitalize(str));
+}
+

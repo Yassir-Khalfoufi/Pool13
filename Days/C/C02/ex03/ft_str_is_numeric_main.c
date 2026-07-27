@@ -1,3 +1,4 @@
+#include<stdio.h>
 int	ft_str_is_numeric(char *str)
 {
 	int	i;
@@ -9,4 +10,9 @@ int	ft_str_is_numeric(char *str)
 		i++;
 	}
 	return(1);
+}
+int	main()
+{
+	char	str[] = "";
+	printf("%d\n", ft_str_is_numeric(str));
 }

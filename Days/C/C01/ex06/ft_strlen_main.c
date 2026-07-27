@@ -1,3 +1,4 @@
+#include<stdio.h>
 int	ft_strlen(char	*str)
 {
 	int	i;
@@ -7,4 +8,8 @@ int	ft_strlen(char	*str)
 		i++;
 	}
 	return(i);
+}
+int	main()
+{
+	printf("%d\n", ft_strlen("v jovbvodbo"));
 }

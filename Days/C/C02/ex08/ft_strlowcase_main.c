@@ -1,3 +1,4 @@
+#include<stdio.h>
 char	*ft_strlowcase(char *str)
 {
 	int	i;
@@ -9,4 +10,9 @@ char	*ft_strlowcase(char *str)
 		i++;
 	}
 	return(str);
+}
+int	main()
+{
+	char	str[] = "YASSIR";
+	printf("%s\n", ft_strlowcase(str));
 }
