@@ -66,3 +66,8 @@ int	ft_atoi_base(char *str, char *base)
 	}
 	return(result * sign);
 }
+#include<stdio.h>
+int	main()
+{
+	printf("%d\n", ft_atoi_base("nyfo", "poneyvif"));
+}
