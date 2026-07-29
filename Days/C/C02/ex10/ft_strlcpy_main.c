@@ -1,3 +1,4 @@
+#include<stdio.h>
 int	ft_strlen(char	*str)
 {
 	int	i;
@@ -20,4 +21,10 @@ unsigned	int ft_strlcpy(char *dest, char *src, unsigned int size)
 		dest[i] = '\0';
 	}
 	return(ft_strlen(src));
+}
+int	main()
+{
+	char	src[] = "Hello World";
+	char	dest[8];
+	printf("%d\n", ft_strlcpy(dest, src, 7));
 }

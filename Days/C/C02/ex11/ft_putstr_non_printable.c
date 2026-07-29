@@ -1,15 +1,15 @@
-#include <unistd.h>
-
+#include<unistd.h>
 void	ft_putstr_non_printable(char *str)
 {
 	int		i;
 	char	bs;
-	char	hex[16] = "0123456789abcdef";
+	char	*hex;
 	char	a;
 	char	b;
 
 	i = 0;
 	bs = '\\';
+	hex = "0123456789abcdef";
 	while (str[i] != '\0')
 	{
 		if (str[i] < 32 || str[i] > 126)
@@ -25,9 +25,3 @@ void	ft_putstr_non_printable(char *str)
 		i++;
 	}
 }
-
-int	main()
-{
-	ft_putstr_non_printable("Coucou\ntu vas bien ?");
-	return (0);
-}	

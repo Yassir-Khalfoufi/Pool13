@@ -22,3 +22,12 @@ char *ft_strncat(char *dest, char *src, unsigned int nb)
     dest[dlen + i] = '\0';
     return(dest);
 }
+#include <stdio.h>
+
+int main()
+{
+    char dest[20] = "HELLO";
+    ft_strncat(dest, "world!!!", 2);
+    printf("%s\n", dest);  // Expected: Hello, world
+    return 0;
+}
