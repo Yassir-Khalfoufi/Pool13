@@ -17,3 +17,10 @@ char    *ft_strstr(char *str, char *to_find)
     }
     return(0);
 }
+#include <stdio.h>
+int main()
+{
+    char str[] = "hello world";
+    char to_find[] = "world";
+    printf("%s\n", ft_strstr(str, to_find));
+}

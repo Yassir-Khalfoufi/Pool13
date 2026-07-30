@@ -1,5 +1,3 @@
-#include<stdio.h>
-#include<string.h>
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
 	unsigned int	i;
@@ -13,10 +11,13 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	i++;
 	}
 	if(i == n)
-		return(0)
+		return(0);
 	return((unsigned char)s1[i] - (unsigned char) s2[i]);
 }
-int	main()
+#include <stdio.h>
+int main()
 {
-	printf("%d\n", ft_strncmp(NULL, "abcgf", 190));
+    printf("%d\n", ft_strncmp("hello", "hello", 5));
+    printf("%d\n", ft_strncmp("hello", "world", 5)); 
+    printf("%d\n", ft_strncmp("world", "hello", 5)); 
 }
