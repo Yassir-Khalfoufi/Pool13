@@ -8,10 +8,16 @@ int ft_iterative_factorial(int nb)
     int    i;
     i = nb;
     result = 1;
+
     while(i > 1)
     {
-        result = result * nb;
+        result = result * i;
         i--;
     }
     return(result);
+}
+#include<stdio.h>
+int main()
+{
+    printf("%d\n", ft_iterative_factorial(10));
 }
