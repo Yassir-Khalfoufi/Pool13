@@ -6,7 +6,7 @@ int    main(int    argc, char   **argv)
     i = argc - 1;
     if (argc < 2)
         return 0;
-    while (i >= 1)
+    while (i > 0)
     {
         j = 0;
         while (argv[i][j] != '\0')

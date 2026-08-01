@@ -16,7 +16,6 @@ int    main(int    argc, char   **argv)
     int    i;
     int    j;
     int    pass;
-    i = 1;
     pass = 0;
     if (argc < 2)
         return 0;
