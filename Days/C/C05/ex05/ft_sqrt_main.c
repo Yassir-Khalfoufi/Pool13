@@ -10,9 +10,9 @@ int ft_sqrt(int nb)
     i = 1;
     while(i * i < nb)
     {
-        i++;
         if (i * i == nb)
             return (i);
+        i++;
     }
     return 0;
 }

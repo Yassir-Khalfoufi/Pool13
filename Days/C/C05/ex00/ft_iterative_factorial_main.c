@@ -19,5 +19,5 @@ int ft_iterative_factorial(int nb)
 #include<stdio.h>
 int main()
 {
-    printf("%d\n", ft_iterative_factorial(10));
+    printf("%d\n", ft_iterative_factorial(5));
 }
