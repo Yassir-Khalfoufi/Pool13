@@ -16,8 +16,9 @@ int ft_is_prime(int nb)
     }
     return(1);
 }
-#include<stdio.h>
-int    main()
+int    ft_find_next_prime(int   nb)
 {
-    printf("%d\n", ft_is_prime(6));
+    while(!(ft_is_prime(nb)))
+        nb++;
+    return(nb);
 }
