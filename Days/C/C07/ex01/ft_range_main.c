@@ -1,5 +1,5 @@
 #include <stdlib.h>
-int *ft_range(int min, int max)
+int *ft_ultimate_range(int min, int max)
 {
     int    i;
     int    len;
@@ -11,9 +11,9 @@ int *ft_range(int min, int max)
     range = malloc (len * 4);
     if (range == NULL)
         return (NULL);
-    while (i < len)
+    while (i <= len)
     {
-        range[i] = min + i;
+        range[i] = min + 2;
         i++;
     }
     return (range);
