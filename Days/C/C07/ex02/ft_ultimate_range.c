@@ -18,3 +18,8 @@ int ft_ultimate_range(int   **range, int min, int max)
     }
     return (max - min);
 }
+#include <stdio.h>
+int main()
+{
+
+}
