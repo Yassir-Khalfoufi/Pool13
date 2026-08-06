@@ -1,9 +1,9 @@
 #include<unistd.h>
 void	ft_print_comb()
 {
-	int	a;
-	int	b;
-	int	c;
+	char	a;
+	char	b;
+	char	c;
 	a = '0';
 	while(a <= '7')
 	{	
