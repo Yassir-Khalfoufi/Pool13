@@ -1,27 +1,27 @@
 #include<unistd.h>
 void	ft_print_comb()
 {
-	char	a;
-	char	b;
-	char	c;
-	a = '0';
-	while(a <= '7')
+	char	x;
+	char	y;
+	char	z;
+	x = '0';
+	while(x <= '7')
 	{	
-		b = a + 1;
-		while(b <= '8')
+		y = x + 1;
+		while(y <= '8')
 		{
-			c = b + 1;
-			while(c <= '9')
+			z = y + 1;
+			while(z <= '9')
 			{
-				write(1, &a, 1);
-				write(1, &b, 1);
-				write(1, &c, 1);
-				if (a != '7')
+				write(1, &x, 1);
+				write(1, &y, 1);
+				write(1, &z, 1);
+				if (x != '7')
 					write(1, ", ",2);
-				c++;
+				z++;
 			}
-			b++;
+			y++;
 		}
-		a++;
+		x++;
 	}
 }
