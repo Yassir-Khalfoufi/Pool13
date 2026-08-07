@@ -15,7 +15,7 @@ char *ft_strcat(char *dest, char *src)
 	while(src[i] != '\0')
 	{
 		dest[dlen + i] = src[i];
-	i++;
+		i++;
 	}
 	dest[dlen + i] = '\0';
 	return(dest);
