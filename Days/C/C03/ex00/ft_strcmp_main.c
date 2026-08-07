@@ -13,5 +13,5 @@ int	ft_strcmp(char *s1, char *s2)
 }
 int	main()
 {
-	printf("%d\n", ft_strcmp("abcfd" , "abc"));
+	printf("%d\n", ft_strcmp("abcf" , "abcfd"));
 }
