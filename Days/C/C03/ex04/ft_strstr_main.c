@@ -21,6 +21,6 @@ char    *ft_strstr(char *str, char *to_find)
 int main()
 {
     char str[] = "hello world";
-    char to_find[] = "world";
+    char to_find[] = "kal";
     printf("%s\n", ft_strstr(str, to_find));
 }
