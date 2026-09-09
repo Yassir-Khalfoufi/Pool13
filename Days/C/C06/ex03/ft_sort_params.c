@@ -28,7 +28,7 @@ int    main(int    argc, char   **argv)
             {
                 char    *temp;
                 temp = argv[i];
-                argv[i] = argv[i + 1];
+     `           argv[i] = argv[i + 1];
                 argv[i + 1] = temp;
             }
             i++;
